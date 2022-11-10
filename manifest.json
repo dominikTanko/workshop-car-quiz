@@ -1,0 +1,43 @@
+{
+    "name": "Car Quiz",
+    "short_name": "CarQuiz",
+    "theme_color": "#2196f3",
+    "background_color": "#2196f3",
+    "display": "standalone",
+    "orientation": "portrait-primary",
+    "start_url": "index.html",
+    "icons": [
+        {
+            "src": "/images/icons/72.png",
+            "type": "image/png", "sizes": "72x72"
+          },
+          {
+            "src": "/images/icons/92.png",
+            "type": "image/png", "sizes": "92x92"
+          },
+          {
+            "src": "/images/icons/128.png",
+            "type": "image/png","sizes": "128x128"
+          },
+          {
+            "src": "/images/icons/144.png",
+            "type": "image/png", "sizes": "144x144"
+          },
+          {
+            "src": "/images/icons/152.png",
+            "type": "image/png", "sizes": "152x152"
+          },
+          {
+            "src": "/images/icons/196.png",
+            "type": "image/png", "sizes": "196x196"
+          },
+          {
+            "src": "/images/icons/256.png",
+            "type": "image/png", "sizes": "256x256"
+          },
+          {
+            "src": "/images/icons/512.png",
+            "type": "image/png", "sizes": "512x512"
+          }
+    ]
+}
