@@ -27,19 +27,21 @@ function createPage(question) {
 function verifyAnswer(isCorrect) {
     if (isCorrect) {
         points++;
-        if (currentQuestion == 0) {
-            currentQuestion++;
-        } else if (currentLevel < 3) {
-            currentLevel++;
-            currentQuestion = 0;
-        } else {
-            container.innerHTML = `
-                <h1>CONGRATULATIONS!</h1>
-                <h2>Points : ${points}</h2>
-                `;
-            return;
-        }
-        main(currentLevel, currentQuestion)
     }
+
+    if (currentQuestion == 0) {
+        currentQuestion++;
+    } else if (currentLevel < 3) {
+        currentLevel++;
+        currentQuestion = 0;
+    } else {
+        container.innerHTML = `
+            <h1>Well Played !</h1>
+            <h2>Points : ${points}</h2>
+            <button class="levelButton" type="button" id="lvl1Button"><a href="/index.html">RESTART</a></button>
+            `;
+        return;
+    }
+    main(currentLevel, currentQuestion)
 }
 
