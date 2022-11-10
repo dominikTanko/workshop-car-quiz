@@ -40,7 +40,7 @@ p {
 }
 .container {
     display: grid;
-    grid-template-rows: repeat(auto-fit, minmax(15rem, 1fr));
+    /* grid-template-rows: repeat(auto-fit, minmax(15rem, 1fr)); */
     grid-gap: 1rem;
     justify-content: center;
     align-items: center;

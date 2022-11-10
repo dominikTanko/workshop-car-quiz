@@ -1,48 +1,46 @@
-{
-    "questions" : [
-        {
-            "img": "/images/questionImg/lvl3/q1.jpg",
-            "question": "Which engine configuration does the E30 M3 have ?",
-            "answers": [
-                {
-                    "answer": "3.2l inline 6",
-                    "correct": false
-                },
-                {
-                    "answer": "4l V8",
-                    "correct": false
-                },
-                {
-                    "answer": "2l inline 4",
-                    "correct": false
-                },
-                {
-                    "answer": "2.3l inline 4",
-                    "correct": true
-                }
-            ]
-        },
-        {
-            "img": "/images/questionImg/lvl3/q2.jpg",
-            "question": "How many different variants did the Ferrari 308 have ?",
-            "answers": [
-                {
-                    "answer": "5",
-                    "correct": false
-                },
-                {
-                    "answer": "1",
-                    "correct": false
-                },
-                {
-                    "answer": "13",
-                    "correct": false
-                },
-                {
-                    "answer": "6",
-                    "correct": true
-                }
-            ]
-        }
-    ]
-}
+[
+    {
+        "img": "/images/questionImg/lvl3/q1.jpg",
+        "question": "Which engine configuration does the E30 M3 have ?",
+        "answers": [
+            {
+                "answer": "3.2l inline 6",
+                "correct": false
+            },
+            {
+                "answer": "4l V8",
+                "correct": false
+            },
+            {
+                "answer": "2l inline 4",
+                "correct": false
+            },
+            {
+                "answer": "2.3l inline 4",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "img": "/images/questionImg/lvl3/q2.jpg",
+        "question": "How many different variants did the Ferrari 308 have ?",
+        "answers": [
+            {
+                "answer": "5",
+                "correct": false
+            },
+            {
+                "answer": "1",
+                "correct": false
+            },
+            {
+                "answer": "13",
+                "correct": false
+            },
+            {
+                "answer": "6",
+                "correct": true
+            }
+        ]
+    }
+]
