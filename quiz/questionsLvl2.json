@@ -1,0 +1,48 @@
+{
+    "questions" : [
+        {
+            "img": "/images/questionImg/lvl2/q1.jpg",
+            "question": "How much does the Alfa Romeo GTAm weight ?",
+            "answers": [
+                {
+                    "answer": "1480kg",
+                    "correct": false
+                },
+                {
+                    "answer": "1580kg",
+                    "correct": true
+                },
+                {
+                    "answer": "1610kg",
+                    "correct": false
+                },
+                {
+                    "answer": "1595kg",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "img": "/images/questionImg/lvl2/q2.jpg",
+            "question": "How many cars did Singer \"reimagined\" ?",
+            "answers": [
+                {
+                    "answer": "450",
+                    "correct": true
+                },
+                {
+                    "answer": "964",
+                    "correct": false
+                },
+                {
+                    "answer": "2500",
+                    "correct": false
+                },
+                {
+                    "answer": "5",
+                    "correct": false
+                }
+            ]
+        }
+    ]
+}
